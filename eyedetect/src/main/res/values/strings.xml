@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">face1</string>
+    <string name="detect_distance_label">检测距离：%.1f</string>
+</resources>

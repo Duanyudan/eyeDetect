@@ -1,0 +1,5 @@
+include ':eyedetect'
+include ':app'
+rootProject.name = "My Application"
+include ':cameralib'
+include ':cameralib'
