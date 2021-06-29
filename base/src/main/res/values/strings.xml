@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="loading_tip">加载中...</string>
+    <string name="loaded_error_text">加载失败，请重新加载</string>
+    <string name="loaded_no_net_text">网络链接失败，请检查网络后刷新重试</string>
+    <string name="loaded_reload_text">重新加载</string>
+    <string name="loaded_refresh_text">刷新</string>
+    <string name="loaded_empty_tip">啊哦，这里没有内容哦</string>
+</resources>

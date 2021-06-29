@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModel
 import com.example.base.base.BaseActivity
 import com.example.base.base.BaseViewModel
 
-abstract class DataBindingAvtivity<D : ViewDataBinding,VM:ViewModel> : BaseActivity<VM>() {
+abstract class DataBindingAvtivity<D : ViewDataBinding,VM:BaseViewModel> : BaseActivity<VM>() {
 
     lateinit var mBinding: D
 

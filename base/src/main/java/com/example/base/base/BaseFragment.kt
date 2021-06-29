@@ -12,7 +12,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelStoreOwner
 import java.lang.reflect.ParameterizedType
 
-abstract class BaseFragment<VM : ViewModel> : Fragment() {
+abstract class BaseFragment<VM : BaseViewModel> : Fragment() {
     private var isFirst: Boolean = true
 
     var mContext: Context? = null

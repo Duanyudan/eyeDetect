@@ -9,8 +9,9 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.lifecycle.ViewModel
 import com.example.base.base.BaseFragment
+import com.example.base.base.BaseViewModel
 
-abstract class DataBindingFragment<D : ViewDataBinding, VM : ViewModel> : BaseFragment<VM>() {
+abstract class DataBindingFragment<D : ViewDataBinding, VM : BaseViewModel> : BaseFragment<VM>() {
 
     lateinit var mBinding: D
     abstract fun getDataBindingConfig(): DataBindingConfig

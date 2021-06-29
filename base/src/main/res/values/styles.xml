@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LoadView">
+        <attr name="load_common_layout_id" format="reference"/>
+        <!--        <attr name="empty_layout_id" format="reference" />-->
+        <!--        <attr name="error_layout_id" format="reference" />-->
+        <attr name="loading_layout_id" format="reference" />
+        <attr name="loading_exit_layout_id" format="reference" />
+        <attr name="loading_dismiss_when_click" format="boolean" />
+        <!--        <attr name="no_net_layout_id" format="reference"/>-->
+    </declare-styleable>
+
+    <declare-styleable name="FontTextView">
+        <attr name="maxTextNum" format="integer" />
+        <attr name="needSubString" format="boolean" />
+        <attr name="isRoundFont" format="boolean"/>
+    </declare-styleable>
+</resources>

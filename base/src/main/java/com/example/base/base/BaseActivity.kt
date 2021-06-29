@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModelProvider
 import java.lang.IllegalStateException
 import java.lang.reflect.ParameterizedType
 
-open class BaseActivity<VM : ViewModel> : AppCompatActivity() {
+open class BaseActivity<VM : BaseViewModel> : AppCompatActivity() {
     private val mActivityProvider: ViewModelProvider by lazy {
         ViewModelProvider(this)
     }
